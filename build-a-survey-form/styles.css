@@ -1,0 +1,90 @@
+body {
+  color: #d5e5e3;
+  padding: 25px 0;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#title {
+  font-size: 35px;
+  padding: 5;
+  margin: 0;
+  text-align: center;
+}
+#description {
+  margin: 0;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 35px;
+}
+#survey-form {
+  font-size: 19px;
+  line-height: 1.5;
+  box-shadow: 0 0 3px 0 rgba(83, 14, 14, 0.8);
+  border-radius: 6px;
+  background: #292c4c;
+  padding: 50px 40px;
+  max-width: 700px;
+  min-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+label {
+  display: block;
+  width: 100%;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+textarea {
+  display: block;
+  width: 100%;
+  font-size: 19px;
+  height: 105px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.submit {
+  width: 100%;
+  margin: auto;
+  height: 40px;
+  background-color: rgb(180, 76, 76);
+  border: 0;
+  border-radius: 3px;
+  font-size: 19px;
+  color: white;
+}
+#checkbox,
+#radio {
+  height: 16px;
+  width: 16px;
+}
+stack {
+  font-size: 16px;
+}
+#dropdown {
+  color: grey;
+}
+#name-label,
+#email-label,
+#number-label,
+div {
+  padding: 12px 0;
+}
